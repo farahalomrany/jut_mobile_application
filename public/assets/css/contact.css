@@ -1,0 +1,141 @@
+.link_business_project {
+  background-color: #fff;
+  width: 100%;
+  height: 220px;
+  display: inline-block;
+  padding: 5rem 0;
+  text-align: center;
+  color: #000;
+  font-family: "nexa_light";
+  font-size: 1.8rem;
+  text-decoration: none;
+  font-weight: 600;
+  background-color: #fff;
+}
+.link_business_project svg path {
+  fill: #000 !important;
+}
+.link_business_project:hover {
+  background-color: #1F1F1F;
+  border: 1px solid #1F1F1F;
+  color: #fff !important;
+  color: #000;
+  text-decoration: none;
+}
+.link_business_project:hover svg path {
+  fill: #fff !important;
+}
+
+.overlay_box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  z-index: 1;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(255, 255, 255, 0.45)));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.45));
+}
+
+.contact_section .title_business2, .contact_section .title_business1 {
+  font-family: "nexa_bold";
+  display: block;
+  font-size: 11.2px;
+  color: #848484;
+}
+
+.business_section {
+  display: none;
+}
+
+.contact_section {
+  position: relative;
+  height: auto;
+  padding: 5rem 2.3rem 0 2.3rem;
+}
+.contact_section .title_business1 {
+  position: relative;
+  top: 11px;
+  right: 60px;
+}
+.img_box_gray {
+  position: relative;
+  width: 100%;
+  height: 417px;
+}
+.img_box_gray img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.content_contact_first {
+  margin-bottom: 6.5rem;
+}
+.content_contact_first .ch1 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 43%;
+          flex: 0 0 43%;
+}
+.content_contact_first .ch2 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 63%;
+          flex: 0 0 63%;
+}
+
+.content_contact_bottom .ch1 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 43%;
+          flex: 0 0 43%;
+}
+.content_contact_bottom .ch2 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 43%;
+          flex: 0 0 43%;
+  margin-top: 9.5rem;
+}
+
+.title_person {
+  font-family: "bod_cbit";
+  font-size: 7rem;
+  padding-left: 1.5rem;
+}
+
+.list_info {
+  position: relative;
+  top: -87px;
+  left: 3rem;
+  z-index: 2;
+  line-height: 1.7;
+}
+
+.content_email {
+  padding-left: 5rem;
+}
+.content_email .title_email {
+  color: #000;
+  font-family: "nexa_light";
+  font-weight: 600;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+.content_email .title_email:hover {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+
+.subject_person {
+  font-family: "nexa_light";
+  font-size: 15px;
+  color: #848484;
+  font-weight: 700;
+}
+.subject_person .link {
+  color: #848484;
+  text-decoration: none;
+}
+.subject_person .link:hover {
+  color: #848484;
+}

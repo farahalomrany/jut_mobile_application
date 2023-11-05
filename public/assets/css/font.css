@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "nexa_bold";
+    src: url("../fonts/Nexa Bold.otf"); 
+  
+}
+
+@font-face {
+    font-family: "nexa_light";
+    src: url("../fonts/nexa_light/nexa_light.eot"); /* IE9*/
+    src: url("../fonts/nexa_light/nexa_light.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/nexa_light/nexa_light.woff2") format("woff2"), /* chrome、firefox */
+    url("../fonts/nexa_light/nexa_light.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/nexa_light/nexa_light.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../fonts/nexa_light/nexa_light.svg#nexa_light") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {
+    font-family:"bod_cbit";
+    src: url(../fonts/BOD_CBI.TTF) format('truetype');
+}

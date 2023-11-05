@@ -1,0 +1,148 @@
+.revolve_home_section{
+    position: relative;
+    height: 120vh;
+    padding: 3rem 0;
+}
+
+.back_custom{
+ background: #000!important;
+}
+.content_title{
+ position: relative;
+ 
+ .title_custom{
+    font-size:3.8vw;
+    line-height: 1;
+ }
+
+}
+.content_subject{
+    position: relative;
+    top: 152px;
+    padding: 5rem 3rem;
+
+    p{
+        font-family: "nexa_light";
+        color:#848484;
+        font-size: 0.9rem;
+    }
+   
+}
+.content_arrow{
+    bottom: 120px
+ }
+ .btn_revolve {
+    height: 55px;
+    font-family: "nexa_bold";
+    position: relative;
+    top: 127px;
+    left: 46px;
+    background: url(../img/Rectangle\ 98.png) no-repeat;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    padding: 0 1rem;
+    font-size: 0.9rem;
+}
+.img_circle{
+    img{
+        padding: 6rem;
+        width: 711px;
+        object-fit: contain;
+        margin-top: 5rem;
+    }
+}
+
+.revolve2_section{
+    background-color: #545454;
+    position: relative;
+    height: auto;
+    padding:8rem 2.2rem;
+   
+}
+
+.title_revolve{
+    font-family: "nexa_light";   
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 700;
+  }
+.content_revolve{
+
+    margin-top: 12rem;
+ 
+    .ch{
+        flex: 0 0 42%;
+   
+    .card_revolve{
+        margin-bottom:7rem;
+        .link_text_revolve{
+            font-family: "nexa_light";
+            font-size: 1.3rem;
+            color:#FFFFFF;
+            text-decoration: none;
+            font-weight: 700;
+           
+            &:hover{
+                color:#FFFFFF;
+                text-decoration: none;
+            }
+        }
+        .text_subject{
+              font-family: "nexa_light";
+              font-size: 1rem;
+              color: #848484;
+              margin-top: 0.5rem;
+             
+        }
+        .img-revolve{
+            img{
+                height: 110px;
+            }
+            margin-bottom: 2rem;
+        }
+    }
+   }
+}
+
+.payment_section{
+    position: relative;
+    background: #000;
+    height:auto;
+    padding:8rem 2.2rem;
+}
+
+.content_payment{
+    margin-top: 5rem;
+    .ch{
+        flex: 0 0 42%;
+ 
+    .title_payment{
+        color: #fff;
+        font-size: 1.5rem;
+        font-family: "nexa_bold";
+    }
+    .list_media{
+        li{
+            .line-break{
+                font-weight: 700;
+                padding-right:0.5rem;
+            }
+            
+            font-family: "nexa_light";
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #fff;
+        }
+     
+    }
+
+   }
+    
+}
+.service_section{
+    position: relative;
+    height: 100vh;
+    background: linear-gradient(90deg,#A26285 5%,#8C5983 8%,#795181 10%,#3E3A7D 30% ,#39387C 30% );
+  
+}

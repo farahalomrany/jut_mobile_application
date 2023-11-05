@@ -1,0 +1,168 @@
+.capa_section3 {
+  position: relative;
+  padding: 0 3rem;
+  height: auto;
+  margin: 7rem 0;
+}
+
+.content_capa .ch {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 45%;
+          flex: 0 0 45%;
+  z-index: 2;
+}
+.content_capa .img_box img {
+  width: 36vw;
+  height: 97vh;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.content_capa .img_box1 img {
+  position: relative;
+  top: -139px;
+  width: 36vw;
+  height: 97vh;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.content_capa .title_capa {
+  font-family: "nexa_light";
+  font-weight: 900;
+  font-size: 2rem;
+}
+.content_capa .subject_text {
+  font-family: "nexa_light";
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 2rem 0;
+}
+.content_capa .list_capabilities .list_capa {
+  font-family: "nexa_light";
+  margin-bottom: 2rem !important;
+  font-weight: 900;
+  line-height: 1.6;
+  list-style: none;
+}
+.content_capa .list_capabilities .list_capa li {
+  font-size: 1rem;
+}
+
+.section_capabilities {
+  position: relative;
+  padding: 1rem 2.9rem;
+  margin: 5rem 0;
+  height: 110vh;
+}
+
+.revolve_back {
+  background: url(../img/capabilities/Group\ 396.png) no-repeat;
+  background-size: cover;
+  height: 750px;
+  position: relative;
+}
+.revolve_back .circle_blue {
+  background: url(../img/capabilities/Ellipse\ 3.png) no-repeat;
+  position: relative;
+  top: 17%;
+  width: 450px;
+  height: 450px;
+  background-size: contain;
+  padding: 2rem;
+  text-align: center;
+  margin: 0 auto;
+}
+.revolve_back .circle_blue .content_text {
+  position: relative;
+  top: 30%;
+}
+.revolve_back .circle_blue .content_text span {
+  font-family: "nexa_bold";
+  font-size: 3.5rem;
+}
+.revolve_back .circle_blue .content_text p {
+  font-family: "nexa_light";
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.revolve_back .circle_blue .content_text .link_approch {
+  font-family: "nexa_light";
+  color: #1F1F1F;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 550;
+}
+.revolve_back .circle_blue .content_text .link_approch:hover {
+  font-family: "nexa_light";
+  color: #1F1F1F;
+  text-decoration: none;
+}
+
+.small-line {
+  padding-right: 0.5rem;
+  font-weight: 900;
+  font-size: 1.1rem;
+  vertical-align: middle;
+}
+
+.link_capa_project {
+  color: #1f1f1f;
+  font-family: "nexa_light";
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+.link_capa_project:hover {
+  color: #1f1f1f;
+  text-decoration: none;
+}
+
+.title1_small {
+  font-family: "nexa_light";
+  font-size: 0.9rem;
+  display: block;
+}
+
+.title2_big {
+  font-family: "nexa_light";
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.approch .ch_approch {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 45%;
+          flex: 0 0 45%;
+}
+.approch .ch_approch .num1_img {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 3px;
+  font-size: 10rem;
+  color: #1F1F1F;
+  font-family: "nexa_light";
+}
+.approch .ch_approch .approch_height {
+  height: 40px;
+}
+.approch .ch_approch .approch_height .title_approch {
+  font-family: "nexa_bold";
+  font-size: 1.3rem;
+}
+.approch .ch_approch .approch_height .subject_text {
+  font-family: "nexa_light";
+  font-size: 1rem;
+  font-weight: 600;
+}
+.approch:nth-child(1) {
+  margin-right: 17rem;
+}
+.approch:nth-child(3) {
+  margin-right: 17rem;
+}
+
+.hr {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  margin: 2rem 0;
+}

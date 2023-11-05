@@ -1,0 +1,539 @@
+.retraine_section{
+    position: relative;
+    padding: 3rem 0;
+    height:260vh;
+ }
+
+ .back_custom_retraine{
+    position: absolute;
+    top: 0;
+    background: #161616!important;
+    width: 100%;
+    height: 100%;
+}
+
+.content_title{
+    padding: 0 11.9rem !important;
+    right: 0;
+    left: 0;
+    display: block;
+
+    .title_custom{
+        font-size: 4.8vw!important;
+        text-align: center;
+    }
+}
+
+.img_retraine_circle{
+  width:800px;
+  margin:5rem auto;
+  img{
+    width: 100%;
+   }
+}
+
+.text_retraine{
+    p{  
+        font-family: "nexa_light";
+        font-size:2.4vw;
+        color: #fff;
+        text-align: center;
+        margin-top: 5rem;
+    }
+}
+
+.content_btn{
+    margin: 3rem auto;
+   .btn_white{
+        color: #000;
+        font-family: "nexa_bold";
+        background-color: #fff;
+        border:0.8px solid #000;
+        font-size: 1.1rem;
+        padding:1.1rem 2.5rem;
+        text-transform: capitalize;
+        -webkit-transition: ease-out 0.3s;
+        transition: ease-out 0.3s;
+        &:hover{
+            color: #fff;
+            -webkit-box-shadow: inset 300px 0 0 0 #1F1F1F;
+            box-shadow: inset 300px 0 0 0 #000;
+            border-color:#fff;
+        }
+    }
+    
+    .btn_black{
+        color:#fff;
+        font-family: "nexa_bold";
+        background-color: #000;
+        border:0.1px solid #fff;
+        font-size: 1.1rem;
+        padding:1.2rem 2.8rem;
+        text-transform: capitalize;
+        margin-left: 3rem;
+        -webkit-transition: ease-out 0.3s;
+        transition: ease-out 0.3s;
+        &:hover{
+            color: #000;
+            -webkit-box-shadow: inset 300px 0 0 0 #fff;
+            box-shadow: inset 300px 0 0 0 #fff;
+            border-color:#000;
+        }
+    }
+
+    .content_img{
+        background-color:#1F1F1F;
+        width: 502px;
+    }
+}
+
+.payment_section{
+    position: relative;
+    padding: 8rem 2.2rem;
+    height: auto;
+    background-color: #161616;
+  
+    .card_box{
+        flex: 0 0  32%;
+        .content_img{
+           width: 100%;
+           img{
+             width: 100%;
+             margin-bottom: 2rem;
+           }
+        }
+        .content_text a{
+            font-family: "nexa_light";
+            font-size:1.85rem;
+            color: #fff;
+            text-decoration: none;
+            &:hover{
+                color: #fff;
+                text-decoration: none; 
+            }
+        }
+        .content_text p{
+            color: #fff;
+            margin-top: 2rem;
+            font-size:1rem;
+        }
+    }
+
+    .back_gray{
+        margin-top:12rem;
+        background:url(../img/Group\ 27.png) no-repeat center center;
+        background-size: cover;
+        height: 1000px;
+        color: #fff;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+    }
+    .overlay{
+        background-color: rgba(0,0,0,0.5);
+        z-index: 2;
+        height: 1000px;
+    }
+    .content_text2{
+        position: absolute;
+        top:20%;
+        left: 0;
+        right: 0;
+        z-index: 3;
+
+       span{
+        font-family:"nexa_light";
+        font-size: 2.5rem;
+       }
+
+       p{
+        font-family:"nexa_light";
+        font-size: 1rem;
+        .text_blue{
+            font-size: 1.2rem;
+            color: #74A7FB;
+        }
+       }
+       
+
+    }
+}
+
+.service_section{
+    position: relative;
+    padding: 8rem 2.2rem;
+    height: auto;
+    background-color: #161616;
+    .title1{
+      font-family: "nexa_bold";
+      color:#5F5F5F;
+      display: block;
+      font-size:3.5rem;
+    }
+    .title2{
+        font-family: "nexa_bold";
+        color:#fff; 
+        font-size:3.5rem;
+    }
+    .content_service{
+        margin-top:13rem;
+        .ch1{
+         flex: 0 0 50%;
+         .img_box{
+            height:380px;
+        
+            img{
+                height: 100%;
+            }
+         }
+        }
+        .ch2{
+            flex: 0 0 50%;
+        }
+
+        .list_service{
+          font-family: "nexa_light";
+          color: #fff;
+         
+          .first_title{
+            font-size: 2rem;
+            margin-bottom: 2rem;
+          }
+          li:not(.first_title){
+            line-height: 1.2;
+             font-size: 1.2rem;
+            .line-break{
+                font-weight: 600; 
+                font-size: 2rem;
+                padding-right:0.5rem;
+            }
+          }
+        }
+        .pos_top{
+            margin-top: 14rem;
+        }
+    }
+}
+
+.partnership_section{
+    position: relative;
+    padding: 8rem 2.2rem;
+    height: auto;
+    .title1{
+        font-family: "nexa_bold";
+        background-image: -o-linear-gradient(#6153D1,#8B45D6,#9642D7,#365FE0);
+        background-image: -moz-linear-gradient(#6153D1,#8B45D6,#9642D7,#365FE0);
+        background-image: -webkit-linear-gradient(#6153D1,#8B45D6,#9642D7,#365FE0);
+        background-image : linear-gradient(#6153D1,#8B45D6,#9642D7,#365FE0);
+        background-size: 100%;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        -moz-text-fill-color: transparent;
+      
+        display: block;
+        font-size:3.5rem;
+    }
+    .title2{
+        font-family: "nexa_bold";
+        color:#010101;
+        display: block;
+        font-size:3.5rem;
+    }
+    .content_partnership{
+        margin:10rem 0 10rem 0;
+        .card_partnership{
+            flex: 0 0 24.8%;
+            
+         
+            span{
+                font-family: "nexa_light";
+                font-size: 1.8rem;
+                font-weight: 600;
+               
+            }
+            p{
+                font-family: "nexa_light";
+                font-size: 1.1rem;
+                margin-top: 3rem;
+                font-weight: 600;
+            }
+        }
+        :not(:last-child){
+            padding-right: 2rem;
+        }
+        
+        
+    }
+    .title_apply{
+        font-family: "nexa_bold";
+        text-transform:uppercase;
+        font-size: 1.1rem;
+      }
+      .content_apply{
+        margin-top: 4rem;
+       
+        .ch{
+            flex: 0 0 48%;
+            .img_apply{
+                width: 100%;
+                height: 390px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+              }
+              .content_text{
+                margin-top: 2rem;
+                 a{
+                    font-family: "nexa_light";
+                    font-size: 1.8rem;
+                    color: #000;
+                    font-weight: 600;
+                    text-decoration: none;
+                    &:hover{
+                        color: #000;
+                        text-decoration: none;
+                    }
+                 }
+                 p{
+                    font-family: "nexa_light";
+                    font-size: 1rem;
+                    margin-top: 0.4rem;
+                 }
+              }
+          }
+        }
+        
+     
+}
+
+
+.all_work_section{
+    position: relative;
+    padding:4rem 2.2rem;
+    height: auto;
+    .content_work{
+       margin-bottom: 5rem;
+      
+        .ch{
+            flex: 0  0 48%;
+            .img_work{
+                width: 100%;
+                height: 390px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+              }
+              .content_text{
+                margin-top: 2rem;
+                 a{
+                    font-family: "nexa_light";
+                    font-size: 1.8rem;
+                    color: #000;
+                    font-weight: 600;
+                    text-decoration: none;
+                    &:hover{
+                        color: #000;
+                        text-decoration: none;
+                    }
+                 }
+                 p{
+                    font-family: "nexa_light";
+                    font-size: 1rem;
+                    margin-top: 0.4rem;
+                 }
+              }
+          }
+        }
+        .link_all_work{
+            color: #1f1f1f;
+            font-family: "nexa_light";
+            font-size: 1.1rem;
+            text-decoration: none;
+            font-weight: 500;
+            text-transform: uppercase;
+            &:hover {
+                color: #1f1f1f;
+                text-decoration: none;
+            }
+        }
+
+}
+
+.news_section{
+    position: relative;
+    padding:4rem 2.2rem;
+    height: auto;
+    .title_news{
+        font-family: "nexa_bold";
+        font-size:3.5rem;
+       
+    }
+    .content_news{
+        margin-top: 3rem;
+        margin-bottom: 5rem;
+      
+        .card_news{
+            flex: 0  0 29%;
+            .img_news{
+              width: 100%;
+              height: 329px;
+              img{
+                  width: 100%;
+                  height: 100%;
+              }
+            }
+            .content_text{
+                margin-top: 2rem;
+                 a{
+                    font-family: "nexa_light";
+                    font-size: 1.5rem;
+                    color: #000;
+                    font-weight: 600;
+                    text-decoration: none;
+                    &:hover{
+                        color: #000;
+                        text-decoration: none;
+                    }
+                 }
+                 p{
+                    font-family: "nexa_light";
+                    font-size: 1rem;
+                    margin-top: 0.4rem;
+                 }
+              }
+        }
+    }
+    .link_news{
+        color: #1f1f1f;
+        font-family: "nexa_light";
+        font-size: 1.1rem;
+        text-decoration: none;
+        font-weight: 500;
+        text-transform: uppercase;
+     
+        &:hover {
+            color: #1f1f1f;
+            text-decoration: none;
+        }
+    }
+   
+}
+
+
+.form_contact_section{
+    position: relative;
+    padding:4rem 2.2rem;
+    height: auto;
+    background-color: #161616;
+    .title_form_contact{
+        font-family: "nexa_light";
+        font-size:3.5rem;
+        margin: 0 auto;
+        font-weight: 700;
+        color: #ffff;
+        .text-gradient{
+            font-family: "nexa_bold";
+            background-image: -o-linear-gradient(#6153D1,#8B45D6,#9642D7,#365FE0);
+            background-image: -moz-linear-gradient(#6153D1,#8B45D6,#9642D7,#365FE0);
+            background-image: -webkit-linear-gradient(#6153D1,#8B45D6,#9642D7,#365FE0);
+            background-image : linear-gradient(#6153D1,#8B45D6,#9642D7,#365FE0);
+            background-size: 100%;
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            -webkit-text-fill-color: transparent; 
+            -moz-text-fill-color: transparent;
+            font-weight: 600;
+        }
+    }
+   .form_contact{
+    margin: 5rem auto;
+    flex: 0 0 auto;
+    width: 445px;
+    
+        form{
+            .form-group{
+                margin-bottom:1.5rem;
+
+                .label_custom{
+                  color: #fff;
+                }
+
+               .input_custom{
+                    width: 100%;  
+                    border: 0;
+                    background-color:transparent;
+                    border-bottom: 1px solid #fff;
+                    color: #fff;
+                    caret-color:#fff;
+                    margin-top: 1rem;
+                    font-family: "nexa_light";
+                    &:focus{
+                        border: 0;
+                         outline: 0;
+                        border-bottom: 1px solid #fff;
+                    }
+                }
+    
+             }
+
+             margin-bottom: 5rem;
+        }
+        .link_send{
+            font-family: "nexa_light";
+            color: #fff;
+            font-size: 0.9rem;
+            text-decoration: none;
+           
+           
+        }
+       
+     } 
+   
+}
+
+.discord_section{
+    position: relative;
+    height: auto;
+   .back_discord{
+        background: url(../img/cap1.png) no-repeat center center;
+        background-size: cover;
+        height:1000px;
+        z-index: 1;
+        position: relative;
+        .overlay{
+            position: absolute;
+            top: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            height: 1000px;
+            z-index: 2;
+            left: 0;
+            right: 0;
+            .text_overlay{
+                position: relative;
+                top:20%;
+                left:8%;
+                color: #fff;
+                z-index:3;
+                p{
+                    font-family: "nexa_bold";
+                    font-size: 1.6rem;
+                }
+                
+                .btn_discord{
+                    border:0;
+                    padding: 1.2rem 2.5rem;
+                    color: #fff;
+                    font-size:0.8rem;
+                    font-family: "nexa_light";
+                    text-transform: uppercase;
+                    background-color: #5697FB;
+                }
+            }
+         } 
+   }
+  
+}
+

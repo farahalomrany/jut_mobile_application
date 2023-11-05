@@ -1,0 +1,194 @@
+
+.capa_section3 {
+	position: relative;
+	padding:0 3rem;
+	height: auto;
+	margin:7rem 0;
+ 
+}
+
+.content_capa {
+
+	.ch{
+		flex: 0 0 45%;
+		z-index: 2;
+	}
+
+  
+	.img_box {
+		
+		img {
+			width: 36vw;
+			height: 97vh;
+			-o-object-fit: cover;
+			object-fit: cover;
+		}
+	}
+
+	.img_box1 {
+	
+		
+        img {
+		position: relative;
+		top:-139px;
+		width: 36vw;
+		height: 97vh;
+		-o-object-fit: cover;
+		object-fit: cover;
+		}
+	}
+	
+	.title_capa {
+		font-family: "nexa_light";
+		font-weight: 900;
+        font-size: 2rem;
+	}
+	.subject_text {
+		font-family: "nexa_light";
+		font-size:1.1rem;
+		font-weight: 600;
+		margin: 2rem 0;
+	}
+	.list_capabilities{
+	
+		.list_capa {
+			font-family: "nexa_light";
+			margin-bottom: 2rem !important;
+			font-weight: 900;
+			line-height: 1.6;
+			list-style: none;
+			li{
+				font-size: 1rem;
+			}
+
+		}
+	}
+}
+
+.section_capabilities{
+	position: relative;
+	padding:1rem 2.9rem;
+    margin: 5rem 0;
+	height:110vh;
+}
+
+.revolve_back{
+ background: url(../img/capabilities/Group\ 396.png) no-repeat;
+ background-size: cover;
+ height:750px;
+ position: relative;
+	
+ .circle_blue{
+	background: url(../img/capabilities/Ellipse\ 3.png) no-repeat;
+	position: relative;
+    top: 17%;
+	width: 450px;
+	height: 450px;
+	background-size: contain;
+	padding: 2rem;
+	text-align: center;
+	margin: 0 auto;
+	.content_text{
+		position: relative;
+		top: 30%;
+		span{
+			font-family: "nexa_bold";
+			font-size: 3.5rem;
+		}
+		p{
+			font-family: "nexa_light";
+			font-size: 1rem;
+			font-weight: 600;
+			margin-bottom: 2rem;
+		}
+		.link_approch {
+			font-family: "nexa_light";
+			color: #1F1F1F;
+			text-decoration: none;
+			font-size: 1rem;
+			font-weight: 550;
+			
+			&:hover {
+				font-family: "nexa_light";
+				color: #1F1F1F;
+				text-decoration: none;
+			
+			}
+		}
+		
+	}
+ }
+}
+
+.small-line {
+	padding-right: 0.5rem;
+	font-weight: 900;
+	font-size: 1.1rem;
+	vertical-align: middle;
+}
+.link_capa_project {
+	color: #1f1f1f;
+	font-family: "nexa_light";
+	font-weight: 600;
+	font-size: 0.9rem;
+	text-decoration: none;
+	&:hover {
+		color: #1f1f1f;
+		text-decoration: none;
+	}
+}
+.title1_small {
+	font-family: "nexa_light";
+	font-size: 0.9rem;
+	display: block;
+}
+.title2_big {
+	font-family: "nexa_light";
+	font-size: 1.5rem;
+	font-weight: 600;
+
+}
+
+.approch {
+
+	.ch_approch{
+		flex: 0 0 45%;
+		.num1_img{
+		-webkit-text-fill-color: transparent;
+		-webkit-text-stroke:3px;
+		font-size: 10rem;
+		color: #1F1F1F;
+		font-family: "nexa_light";
+		}
+		.approch_height{
+			height: 40px;
+		
+		.title_approch {
+			font-family: "nexa_bold";
+			font-size: 1.3rem;
+			
+		}
+		.subject_text {
+			font-family: "nexa_light";
+			font-size: 1rem;
+			font-weight: 600;
+		}
+	}
+		
+	}
+
+	&:nth-child(1){
+		margin-right: 17rem;
+	}
+
+	&:nth-child(3){
+		margin-right: 17rem;
+	}
+
+}
+
+.hr {
+	flex: 0 0 100%;
+	margin: 2rem 0;
+}
+

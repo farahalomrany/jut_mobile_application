@@ -1,0 +1,141 @@
+.revolve_home_section {
+  position: relative;
+  height: 120vh;
+  padding: 3rem 0;
+}
+
+.back_custom {
+  background: #000 !important;
+}
+
+.content_title {
+  position: relative;
+}
+.content_title .title_custom {
+  font-size: 3.8vw;
+  line-height: 1;
+}
+
+.content_subject {
+  position: relative;
+  top: 152px;
+  padding: 5rem 3rem;
+}
+.content_subject p {
+  font-family: "nexa_light";
+  color: #848484;
+  font-size: 0.9rem;
+}
+
+.content_arrow {
+  bottom: 120px;
+}
+
+.btn_revolve {
+  height: 55px;
+  font-family: "nexa_bold";
+  position: relative;
+  top: 127px;
+  left: 46px;
+  background: url(../img/Rectangle\ 98.png) no-repeat;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  padding: 0 1rem;
+  font-size: 0.9rem;
+}
+
+.img_circle img {
+  padding: 6rem;
+  width: 711px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-top: 5rem;
+}
+
+.revolve2_section {
+  background-color: #545454;
+  position: relative;
+  height: auto;
+  padding: 8rem 2.2rem;
+}
+
+.title_revolve {
+  font-family: "nexa_light";
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 700;
+}
+
+.content_revolve {
+  margin-top: 12rem;
+}
+.content_revolve .ch {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 42%;
+          flex: 0 0 42%;
+}
+.content_revolve .ch .card_revolve {
+  margin-bottom: 7rem;
+}
+.content_revolve .ch .card_revolve .link_text_revolve {
+  font-family: "nexa_light";
+  font-size: 1.3rem;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 700;
+}
+.content_revolve .ch .card_revolve .link_text_revolve:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.content_revolve .ch .card_revolve .text_subject {
+  font-family: "nexa_light";
+  font-size: 1rem;
+  color: #848484;
+  margin-top: 0.5rem;
+}
+.content_revolve .ch .card_revolve .img-revolve {
+  margin-bottom: 2rem;
+}
+.content_revolve .ch .card_revolve .img-revolve img {
+  height: 110px;
+}
+
+.payment_section {
+  position: relative;
+  background: #000;
+  height: auto;
+  padding: 8rem 2.2rem;
+}
+
+.content_payment {
+  margin-top: 5rem;
+}
+.content_payment .ch {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 42%;
+          flex: 0 0 42%;
+}
+.content_payment .ch .title_payment {
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: "nexa_bold";
+}
+.content_payment .ch .list_media li {
+  font-family: "nexa_light";
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #fff;
+}
+.content_payment .ch .list_media li .line-break {
+  font-weight: 700;
+  padding-right: 0.5rem;
+}
+
+.service_section {
+  position: relative;
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, right top, color-stop(5%, #A26285), color-stop(8%, #8C5983), color-stop(10%, #795181), color-stop(30%, #3E3A7D), color-stop(30%, #39387C));
+  background: linear-gradient(90deg, #A26285 5%, #8C5983 8%, #795181 10%, #3E3A7D 30%, #39387C 30%);
+}

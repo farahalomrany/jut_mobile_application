@@ -1,0 +1,77 @@
+.business_section {
+  position: relative;
+  padding: 8rem 0;
+  height: auto;
+}
+.business_section .title_business1 {
+  font-family: "bod_cbit";
+  font-size: 2.5rem;
+}
+.business_section .title_business2 {
+  font-family: "nexa_bold";
+  font-size: 2.5rem;
+}
+.business_section .text_gray {
+  text-transform: uppercase;
+  font-family: "nexa_bold";
+  color: #848484;
+  font-size: 1.1rem;
+  margin-left: 7.5rem;
+}
+.business_section .pos_top_list {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+.business_section .content_menu {
+  margin-top: 1rem;
+}
+.business_section .content_menu .list_checkbox {
+  list-style: none;
+}
+.business_section .content_menu .list_checkbox li {
+  background-color: #fff;
+  height: 100px;
+  margin-bottom: 0.7rem;
+  vertical-align: middle;
+  padding: 2.5rem 1rem;
+  margin-right: 0.7rem;
+  width: 28%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+.business_section .content_menu .list_checkbox li span, .business_section .content_menu .list_checkbox li p {
+  font-family: "nexa_light";
+  font-weight: 700;
+  text-align: left;
+}
+.business_section .content_form {
+  margin: 1.5rem 7.5rem;
+}
+.business_section .content_form .alert_contact {
+  padding: 0.5rem;
+  display: none;
+}
+.business_section .content_form .label_custom {
+  font-family: "nexa_light";
+  font-weight: 800;
+}
+.business_section .content_form .input_custom {
+  width: 100%;
+  border: 0;
+  font-family: "nexa_light";
+  background-color: transparent;
+  border-bottom: 2px solid #848484;
+  caret-color: #848484;
+}
+.business_section .content_form .input_custom:focus {
+  outline: 0;
+}
+.business_section .content_form .link_send {
+  font-family: "nexa_light";
+  color: #1F1F1F;
+  font-size: 1rem;
+  text-decoration: none;
+  margin-top: 5rem;
+  font-weight: 800;
+}
